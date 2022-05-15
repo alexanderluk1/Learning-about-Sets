@@ -7,7 +7,7 @@ This project involves using
 3. Validation to ensure user doesn't key in an incorrect input
 
 
-Main Menu:
+# Main Menu:
 
 0. Set Properties
 1. Union Examples
@@ -21,15 +21,17 @@ Main Menu:
 9. Quit
 
 
-**Set Examples**
+## **Set Examples**
 
 A set is randomly generated and displayed in UpperCase format:
-
+```
 Here is an example of set
         A = {MONKEY, GOAT, PIG, TIGER, OX}
         All elements in set are distinct and random order
-
+```
 You are then able to manipulate the set through a sub-menu
+
+# Sub Menu:
 
 1. Add Element
 2. Check if Element is in the Set
@@ -39,24 +41,24 @@ You are then able to manipulate the set through a sub-menu
 9. Quit
 
 
-**Union Examples**
-
+## **Union Examples**
+```
 Given sets
         A = {SNAKE, DOG, TIGER, RABBIT, ROOSTER, PIG, DRAGON}
         B = {ROOSTER, GOAT}
 
         Union of A and B = {SNAKE, DOG, TIGER, RABBIT, ROOSTER, PIG, DRAGON, GOAT}
-        
-**Intersection Example**
-
+```      
+## **Intersection Example**
+```
 Given sets
         A = {DOG, TIGER, GOAT}
         B = {TIGER, DOG, DRAGON, ROOSTER, PIG, RAT}
 
         Intersection of A and B = {DOG, TIGER}
-
-**Subset Example**
-
+```
+## **Subset Example**
+```
 Given sets
         A = {HORSE, MONKEY, DRAGON, PIG, DOG, OX, RAT, SNAKE}
         B = {RAT, HORSE, TIGER, ROOSTER, SNAKE}
@@ -64,24 +66,25 @@ Given sets
 Conclusion
         A subset of B: false
         B subset of A: false
-
-**Difference Example**
-
+```
+## **Difference Example**
+```
 Given sets
         A = {SNAKE}
         B = {DOG, HORSE, DRAGON}
 
         A - B = {Snake}
-
-**Complement Example**
-
+```
+## **Complement Example**
+```
 Given set
         A = {HORSE, GOAT}
 
         A' = {RAT, OX, TIGER, RABBIT, DRAGON, SNAKE, MONKEY, ROOSTER, DOG, PIG}
+```
 
-**Set Equality Example**
-
+## **Set Equality Example**
+```
 Given sets
         A = {ROOSTER, RABBIT, MONKEY}
         B = {GOAT, SNAKE, RAT, TIGER, OX, DRAGON, MONKEY, RABBIT}
@@ -93,9 +96,9 @@ Analysis
 
 Conclusion
         A equal to B: false
-
-**Distributive Law 1**
-
+```
+## **Distributive Law 1**
+```
 We wish to prove: A U (B I C) = (A U B) I (A U C)
 
 
@@ -112,10 +115,10 @@ RHS Analysis
 
 Conclusion
         LHS = RHS is true
+```
 
-
-**Distributive Law 2**
-
+## **Distributive Law 2**
+```
 We wish to prove: A I (B U C) = (A I B) U (A I C)
 
 
@@ -132,7 +135,7 @@ RHS Analysis
 
 Conclusion
         LHS = RHS is true
-
+```
 
 
 
